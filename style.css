@@ -1,0 +1,140 @@
+html {
+  font-family: palatino;
+}
+
+h1 {
+  align-self: center;
+  margin: auto;
+  text-align: center;
+  font-size: 36px;
+  background: white;
+  border: 2px solid navy;
+  border-radius: 10px;
+  width: 780px;
+  height: auto;
+  padding: 10px;
+}
+
+h2 {
+  align-self: center;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  width: 350px;
+  height: auto;
+  padding: 10px;
+  color: white;
+}
+
+#startButton {
+  align-self: center;
+  margin: auto;
+  text-align: center;
+  font-size: 24px;
+  background: white;
+  border: 2px solid navy;
+  border-radius: 10px;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+}
+
+#scoreboard {
+  align-self: center;
+  margin: auto;
+  text-align: center;
+  font-size: 24px;
+  background: white;
+  border: 2px solid navy;
+  border-radius: 10px;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+}
+
+body {
+  background-image: url("assets/background.jpg");
+  background-repeat: repeat;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.character {
+  height: 120px;
+  width: 120px;
+  background: white;
+  border: 2px solid navy;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.portrait {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+#enterButton {
+  align-self: center;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  color: white;
+}
+
+#questions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.question {
+  height: 25px;
+  width: 160px;
+  background: white;
+  border: 2px solid navy;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+#email {
+  align-self: center;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  color: white;
+}
+
+h3 {
+  align-self: center;
+  margin: auto;
+  text-align: center;
+  font-size: 36px;
+  width: 400px;
+  height: auto;
+  padding: 10px;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
